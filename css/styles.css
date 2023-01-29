@@ -1,0 +1,166 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h1 {
+
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h2 {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.dog {
+  transform: rotate(10deg);
+  width: 60%;
+  right: 30%;
+}
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/*  HEADINGS */
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.buticons {
+  color: red;
+  font-size: 50px;
+}
+
+.buticons:hover {
+  color: #ff46e8;
+}
+
+.indibelowbuticons {
+  text-align: center;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta=heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+#footer {
+  color: grey;
+  align-items: center;
+  text-align: center;
+  padding: 7% 15%;
+  margin: 5px;
+}
+
+.footicons {
+  padding: 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
